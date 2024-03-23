@@ -2,7 +2,8 @@
 ## How to Add Quiz Data
 1. Open QuizData.plist
 2. Add a new dictionary entry using the following sample format
-   Sample Dictionary
+  
+Sample Dictionary
 ```
 <array>
   <dict>
@@ -24,7 +25,8 @@
 ## クイズデータを追加する
 1. QuizData.plistを開く
 2. 以下のフォーマットを見て新しいdictionaryを追加してください。
-   サンプル
+   
+サンプル
 ```
 <array>
   <dict>
