@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		962105C82B98ADF200D42407 /* Quiz.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962105C72B98ADF200D42407 /* Quiz.storyboard */; };
+		963F145D2B9CAC8700336924 /* QuizData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 963F145C2B9CAC8700336924 /* QuizData.plist */; };
 		9652C47F2B989E60000AAC94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9652C47E2B989E60000AAC94 /* AppDelegate.m */; };
 		9652C4822B989E60000AAC94 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9652C4812B989E60000AAC94 /* SceneDelegate.m */; };
 		9652C4852B989E60000AAC94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9652C4842B989E60000AAC94 /* ViewController.m */; };
@@ -18,6 +19,8 @@
 		9652C49A2B989E63000AAC94 /* SimpleQuizAppForObjectiveCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9652C4992B989E63000AAC94 /* SimpleQuizAppForObjectiveCTests.m */; };
 		9652C4A42B989E63000AAC94 /* SimpleQuizAppForObjectiveCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9652C4A32B989E63000AAC94 /* SimpleQuizAppForObjectiveCUITests.m */; };
 		9652C4A62B989E63000AAC94 /* SimpleQuizAppForObjectiveCUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9652C4A52B989E63000AAC94 /* SimpleQuizAppForObjectiveCUITestsLaunchTests.m */; };
+		969AE2E72BAF1BC8002C37F3 /* QuizEndViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 969AE2E62BAF1BC8002C37F3 /* QuizEndViewController.m */; };
+		96DF27202BAF123B004B8C1D /* QuizEnd.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DF271F2BAF123B004B8C1D /* QuizEnd.storyboard */; };
 		96E66CDF2B98B82B00CC6533 /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E66CDE2B98B82B00CC6533 /* QuizViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		962105C72B98ADF200D42407 /* Quiz.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Quiz.storyboard; sourceTree = "<group>"; };
+		963F145C2B9CAC8700336924 /* QuizData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = QuizData.plist; sourceTree = "<group>"; };
 		9652C47A2B989E60000AAC94 /* SimpleQuizAppForObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleQuizAppForObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9652C47D2B989E60000AAC94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9652C47E2B989E60000AAC94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -57,7 +61,10 @@
 		9652C49F2B989E63000AAC94 /* SimpleQuizAppForObjectiveCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleQuizAppForObjectiveCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9652C4A32B989E63000AAC94 /* SimpleQuizAppForObjectiveCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleQuizAppForObjectiveCUITests.m; sourceTree = "<group>"; };
 		9652C4A52B989E63000AAC94 /* SimpleQuizAppForObjectiveCUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleQuizAppForObjectiveCUITestsLaunchTests.m; sourceTree = "<group>"; };
-		96E66CDD2B98B72600CC6533 /* QuizViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = "<group>"; };
+		969AE2E42BAF19E4002C37F3 /* QuizViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = "<group>"; };
+		969AE2E52BAF1A1A002C37F3 /* QuizEndViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuizEndViewController.h; sourceTree = "<group>"; };
+		969AE2E62BAF1BC8002C37F3 /* QuizEndViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizEndViewController.m; sourceTree = "<group>"; };
+		96DF271F2BAF123B004B8C1D /* QuizEnd.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = QuizEnd.storyboard; sourceTree = "<group>"; };
 		96E66CDE2B98B82B00CC6533 /* QuizViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				9652C4862B989E60000AAC94 /* Main.storyboard */,
+				96DF271F2BAF123B004B8C1D /* QuizEnd.storyboard */,
 				962105C72B98ADF200D42407 /* Quiz.storyboard */,
 			);
 			path = Storyboards;
@@ -118,8 +126,10 @@
 		9652C47C2B989E60000AAC94 /* SimpleQuizAppForObjectiveC */ = {
 			isa = PBXGroup;
 			children = (
-				96E66CDD2B98B72600CC6533 /* QuizViewController.h */,
 				96E66CDE2B98B82B00CC6533 /* QuizViewController.m */,
+				969AE2E42BAF19E4002C37F3 /* QuizViewController.h */,
+				969AE2E52BAF1A1A002C37F3 /* QuizEndViewController.h */,
+				969AE2E62BAF1BC8002C37F3 /* QuizEndViewController.m */,
 				9652C47D2B989E60000AAC94 /* AppDelegate.h */,
 				9652C47E2B989E60000AAC94 /* AppDelegate.m */,
 				9652C4802B989E60000AAC94 /* SceneDelegate.h */,
@@ -131,6 +141,7 @@
 				9652C48B2B989E63000AAC94 /* LaunchScreen.storyboard */,
 				9652C48E2B989E63000AAC94 /* Info.plist */,
 				9652C48F2B989E63000AAC94 /* main.m */,
+				963F145C2B9CAC8700336924 /* QuizData.plist */,
 			);
 			path = SimpleQuizAppForObjectiveC;
 			sourceTree = "<group>";
@@ -258,7 +269,9 @@
 				9652C48D2B989E63000AAC94 /* LaunchScreen.storyboard in Resources */,
 				9652C48A2B989E63000AAC94 /* Assets.xcassets in Resources */,
 				9652C4882B989E60000AAC94 /* Main.storyboard in Resources */,
+				963F145D2B9CAC8700336924 /* QuizData.plist in Resources */,
 				962105C82B98ADF200D42407 /* Quiz.storyboard in Resources */,
+				96DF27202BAF123B004B8C1D /* QuizEnd.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9652C4852B989E60000AAC94 /* ViewController.m in Sources */,
+				969AE2E72BAF1BC8002C37F3 /* QuizEndViewController.m in Sources */,
 				96E66CDF2B98B82B00CC6533 /* QuizViewController.m in Sources */,
 				9652C47F2B989E60000AAC94 /* AppDelegate.m in Sources */,
 				9652C4902B989E63000AAC94 /* main.m in Sources */,

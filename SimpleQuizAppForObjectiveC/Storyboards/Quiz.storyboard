@@ -51,6 +51,9 @@
                                 <color key="backgroundColor" red="0.65490196079999996" green="0.94509803920000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="回答する"/>
+                                <connections>
+                                    <action selector="next_quiz_button:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="p8U-Ii-hRl"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
@@ -78,11 +81,25 @@
                     </view>
                     <connections>
                         <outlet property="answerArea" destination="vw1-LN-bXW" id="qBt-xM-RfQ"/>
+                        <outlet property="next_button" destination="IRd-Bo-6Sr" id="0Pc-BL-oh5"/>
+                        <outlet property="question_number" destination="kgU-Wi-NAb" id="uhU-6X-0vB"/>
+                        <outlet property="question_text" destination="6Cn-8U-Dqs" id="LRm-PI-hqU"/>
+                        <segue destination="7gy-Uc-2sU" kind="show" identifier="end" id="zRs-HW-LeN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="131.8840579710145" y="-27.717391304347828"/>
+        </scene>
+        <!--QuizEnd-->
+        <scene sceneID="LoN-SP-C1z">
+            <objects>
+                <viewControllerPlaceholder storyboardName="QuizEnd" id="7gy-Uc-2sU" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="RxI-hl-PBb"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="072-DM-az0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="711" y="-28"/>
         </scene>
     </scenes>
     <resources>
